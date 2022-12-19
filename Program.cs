@@ -80,31 +80,31 @@ Console.WriteLine();
 
 
 
-Console.Write("Введите количество строк: ");
-int Rows = int.Parse(Console.ReadLine());
+// Console.Write("Введите количество строк: ");
+// int Rows = int.Parse(Console.ReadLine());
 
-Console.Write("Введите количество столбцов: ");
-int Columns = int.Parse(Console.ReadLine());
+// Console.Write("Введите количество столбцов: ");
+// int Columns = int.Parse(Console.ReadLine());
 
-int[,] array = GetArray(Rows, Columns, 0, 10);
+// int[,] array = GetArray(Rows, Columns, 0, 10);
 
-PrintArray(array);
-Console.WriteLine( );
+// PrintArray(array);
+// Console.WriteLine( );
 
 
-double summ = 0;
-double average = 0;
-double count =0;
-for (int i = 0; i < array.GetLength(0);)
-{
+// double summ = 0;
+// double average = 0;
+// double count =0;
+// for (int i = 0; i < array.GetLength(0);)
+// {
 
-for (int j = 0; j < array.GetLength(1); j++)
-{
-summ += array[i,j];
-count = (j+1);
-}
-average = Math.Round(summ/(count), 3);
-Console.WriteLine($"Average of row's number ({i+1}) is: {average}");
-Console.WriteLine( );
-i++;
-}
+// for (int j = 0; j < array.GetLength(1); j++)
+// {
+// summ += array[i,j];
+// count = (j+1);
+// }
+// average = Math.Round(summ/(count), 3);
+// Console.WriteLine($"Average of row's number ({i+1}) is: {average}");
+// Console.WriteLine( );
+// i++;
+// }
